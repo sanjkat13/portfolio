@@ -1,0 +1,147 @@
+/* Updated: 1/16/2022 */
+
+@import "index.css";
+
+
+h3 {
+  font-family: franklin-gothic-atf, sans-serif; 
+  font-style: normal;
+  font-weight: 100;
+  text-align: right;
+  font-size: 12px;
+  color:black;
+  opacity: 50%;
+  padding: 5% 2% 2% 0%;
+  clear: both; 
+  margin:0px;
+  display: block;
+}
+
+
+h1 {
+  text-align: center;
+  color:#7B8CDE;
+  font-family: "Bison";}
+
+h2 {
+  font-family: franklin-gothic-atf, sans-serif; 
+  font-style: normal;
+  text-align: left;
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 130%;
+  padding: 0% 5% 0% 5%;
+  display:inline-block ;
+  margin: 10px;
+	color:black;}
+
+
+
+img {width: 90%; height: 90%;  background-color:transparent;/*#339989;*/
+  }
+
+.imglink:hover {
+    /*border-style: solid;
+    #border-color: #9393937a;*/
+    box-shadow: 0px 0px 3px 6px #9c9c9c60;
+  }
+
+/* Slideshow container */
+.slideshow-container, .slideshow-containerB,.slideshow-containerC, .slideshow-containerD, .slideshow-containerE  {
+  max-width: 1000px;
+  position: relative;
+  margin: 0px;
+  padding:0px
+}
+
+/* Next & previous buttons */
+.next, .nextB, .nextC, .nextD, .nextE {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: -1%;
+  padding: 16px;
+  margin-top: -22px;
+  color: #55555548;
+  font-weight: bold;
+  font-size: 200%;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.prevB, .prev, .prevC, .prevD, .prevE {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: -1%;
+  padding: 16px;
+  margin-top: -22px;
+  color: #55555548;
+  font-weight: bold;
+  font-size: 200%;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: all;
+}
+/* On hover */
+.prev:hover, .prevB:hover,.prevC:hover, .prevD:hover, .prevE:hover, 
+.next:hover,  .nextB:hover, .nextC:hover, .nextD:hover, .nextE:hover  {
+  color: rgb(240, 240, 240);
+}
+
+/* slide dots */
+.dot, .dotB, .dotC, .dotD, .dotE  {
+  cursor: pointer;
+  height: 10px;
+  text-align: center;
+  width: 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.4s ease;
+}
+
+.mySlides, .mySlidesB,.mySlidesC, .mySlidesD, .mySlidesE {display:none;}
+
+
+.active, .dot:hover,.dotB:hover, .dotC:hover, .dotD:hover, .dotE:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) { .prev, .prevB,.prevC,.prevD,.nextC,.nextD, .nextB, .next,.text, .topnav {font-size: 11px}}
+
+
+section {
+  border:rgba(0, 0, 0, 0); 
+  background-color:white; 
+  display: inline-block; 
+  position:relative; 
+  border-width: 1px; 
+  border-style: solid; 
+  margin: 2%;
+  padding-bottom: -10%; 
+  width: 45%; }
+
+@media screen and (max-width: 900px){
+  section {min-width: fit-content;  margin:5%; text-align: center;}
+  .left {min-width: fit-content;  margin:5%; text-align: center;}
+  .right {min-width: fit-content;  margin:5%; text-align: center;}
+  }
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

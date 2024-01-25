@@ -1,0 +1,53 @@
+/* Updated: 12/01/2022 */
+
+/*GIS & projects CSS*/
+@import "index.css";
+
+p {
+  text-align: center;
+  font-size: 12px;
+  padding-top: 0px;
+  padding-left: 5%;
+  padding-right: 5%;}
+
+section {
+  border:black; 
+  background-color:white;  
+  display:inline-block; 
+  position: relative;
+  border-width: 1px; 
+  border-style: solid; 
+  margin: 2%; width: 45%; 
+  vertical-align:middle;}
+
+@media screen and (max-width: 800px){
+    section {min-width: fit-content; max-width:90%; text-align:  center;}
+    }
+    
+/* color:#7B8CDE purple */
+h2 {color:black; 
+  font-size:200%; 
+  letter-spacing: 1px; 
+  padding: 5px; font-style: bold; font-family:"Bison" ;}
+
+h4 {font-size: 22px; padding-left: 10%; padding-right: 10%;}
+
+
+
+object {
+  text-align: center;
+  width: 90%;
+  zoom: 100%;
+  height: 400px;
+  box-shadow:transparent; 
+  border: transparent;
+  background:white;
+  border-color:white;
+  backface-visibility: hidden;
+}
+iframe {
+  width:90%;
+  height: 300px;
+}
+
+table {text-align: center; display:inline-block}
