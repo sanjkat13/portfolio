@@ -45,9 +45,5 @@ object {
   border-color:white;
   backface-visibility: hidden;
 }
-iframe {
-  width:90%;
-  height: 300px;
-}
 
 table {text-align: center; display:inline-block}

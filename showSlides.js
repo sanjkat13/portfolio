@@ -122,6 +122,37 @@ function showSlidesC(n) {
   dotsC[slideIndexC-1].className += " active"; 
 }
 
+/* MENTAL SLIDESHOW*/
+
+let slideIndexE = 1;
+
+showSlidesE(slideIndexE);
+
+function plusSlidesE(n) {
+  showSlidesE(slideIndexE += n);
+}
+
+function currentSlideE(n) {
+  showSlidesE(slideIndexE = n);
+}
+
+function showSlidesE(n) {
+  let i;
+  i = 0;
+  let slidesE = document.getElementsByClassName("mySlidesE");
+  let dotsE = document.getElementsByClassName("dotE");
+  if (n > slidesE.length) {slideIndexE = 1}    
+  if (n < 1) {slideIndexE = slidesE.length}
+  for (i = 0; i < slidesE.length; i++) {
+    slidesE[i].style.display = "none";  
+  }
+  for (i = 0; i < dotsE.length; i++) {
+    dotsE[i].className = dotsE[i].className.replace(" active", "");
+  }
+  slidesE[slideIndexE-1].style.display = "block"
+  dotsE[slideIndexE-1].className += " active"; /*changes the color of the dot when active*/
+}
+
 
 
 //////////button//////

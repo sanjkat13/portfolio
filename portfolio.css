@@ -47,7 +47,7 @@ img {width: 90%; height: 90%;  background-color:transparent;/*#339989;*/
   }
 
 /* Slideshow container */
-.slideshow-container, .slideshow-containerB,.slideshow-containerC, .slideshow-containerD, .slideshow-containerE  {
+.slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: 0px;
