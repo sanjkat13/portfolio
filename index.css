@@ -125,8 +125,8 @@ img {
 
 
 /* Footer position: absolute;*/
-footer {font-family: franklin-gothic-atf, sans-serif; 
-  font-size: 8pt;
+footer {font-family: 'bison'; 
+  font-size: 9pt;
   font-style: light;
   font-weight: 100;
   margin-top: 5%;
@@ -135,13 +135,12 @@ footer {font-family: franklin-gothic-atf, sans-serif;
   text-align: center;
   bottom:0;
   float: inline-end;
-  
   width: 100%;
   background-color: #339989;
   color:white;
 } 
 
-.links a{color: white; padding-left: 2%;}
+.links a{color: white; letter-spacing: 0.5px; padding: 0% 1% 0% 1%;}
 .links a:hover {color:#d0f6f0}
 
 .topbutton {
@@ -179,7 +178,9 @@ h2 {font-family: franklin-gothic-atf, sans-serif;
 h3 {font-family: franklin-gothic-atf, sans-serif; 
   font-style: normal;
   font-weight:100;
-  line-height: 150%;}
+  line-height: 150%;
+}
+
 
 /*profileimg {height: 50px; width: 50px; border-radius: 50%; margin-top:0%; margin-right: 2%;margin-bottom:-0.5%}*/
 
