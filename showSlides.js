@@ -1,4 +1,6 @@
-/* Updated 1/16/2022 */
+/* Updated 2/19/2024 */
+
+//// show slides ////
 let slideIndex = 1;
 showSlides(slideIndex, letter = '');
 
@@ -35,28 +37,3 @@ function scrollToTop() {
     document.documentElement.scrollTop = 0;
 }
 
-
-
-//////////////// collapse button ///////////
-var collapse = document.getElementsByClassName("collapsebutton");
-var i;
-
-function expandcollapse() {
-    let i = 0
-    if (i == 0) {
-        content
-    }
-
-
-}
-for (i = 0; i < collapse.length; i++) {
-    coll[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var content = this.nextElementSibling;
-        if (content.style.display === "block") {
-            content.style.display = "none";
-        } else {
-            content.style.display = "block";
-        }
-    });
-}
