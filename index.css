@@ -169,7 +169,7 @@ body {
   }
 
 
-/* not to import */
+/* ----------- */
 
 
 
@@ -183,11 +183,12 @@ h2 {font-family: franklin-gothic-atf, sans-serif;
   border-bottom-width: 2px; 
   /*border-bottom-style: solid;*/}
   
-h3 {font-family: franklin-gothic-atf, sans-serif; 
+p {font-family: franklin-gothic-atf, sans-serif; 
   font-style: normal;
   font-weight:100;
   line-height: 150%;
 }
+
 
 
 /*profileimg {height: 50px; width: 50px; border-radius: 50%; margin-top:0%; margin-right: 2%;margin-bottom:-0.5%}*/
